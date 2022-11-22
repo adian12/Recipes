@@ -1,0 +1,74 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    color: #dfc2bc;
+}
+
+body {
+    background-color: #341e19;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+
+#title {
+    text-align: center;
+    background-size: cover;
+}
+
+.topNavBar {
+    overflow:hidden;
+    text-align: center;
+}
+
+.topNavBar ul {
+    display: inline-block;
+    list-style-type: none;
+    color: #dfc2bc;
+    padding: 12px 60px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topNavBar a:hover {
+    background-color: #9d1414;
+    border-radius: 10px;
+}
+
+#intro {
+    text-align: left;
+}
+
+hr.rounded {
+    border-top:3px solid #dfc2bc;
+    border-radius: 2px;
+}
+
+/* Steak */
+#steakTitle {
+    text-align: left;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+#steakDesc {
+    text-indent: 5%;
+}
+
+/* Focaccia */
+#focacciaTitle {
+    text-align: left;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+
+/* Pasta */
+#pastaTitle {
+    text-align: left;
+    font-weight: bold;
+    text-decoration:underline;
+}

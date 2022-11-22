@@ -1,0 +1,47 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    color: #dfc2bc;
+}
+
+body {
+    background-color: #341e19;
+}
+
+.topNavBar {
+    overflow:hidden;
+    text-align: center;
+}
+
+.topNavBar ul {
+    display: inline-block;
+    list-style-type: none;
+    color: #dfc2bc;
+    padding: 12px 60px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.topNavBar a:hover {
+    background-color: #9d1414;
+    border-radius: 10px;
+}
+
+#SCU {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 55%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+#story {
+    text-align:left;
+    
+}
+
