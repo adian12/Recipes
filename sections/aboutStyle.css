@@ -1,47 +1,67 @@
 * {
-    font-family:'Courier New', Courier, monospace;
-    color: #dfc2bc;
+    font-family:'Courier New', Courier, monospace !important;
+    color: #dfc2bc !important;
 }
 
 body {
-    background-color: #341e19;
+    background-color: #341e19 !important;
 }
 
 .topNavBar {
-    overflow:hidden;
-    text-align: center;
+    overflow:hidden !important;
+    text-align: center !important;
 }
 
 .topNavBar ul {
-    display: inline-block;
-    list-style-type: none;
-    color: #dfc2bc;
-    padding: 12px 60px;
-    text-decoration: none;
-    font-size: 30px;
+    display: inline-block !important;
+    list-style-type: none !important;
+    color: #dfc2bc !important;
+    padding: 12px 60px !important;
+    text-decoration: none !important;
+    font-size: 30px !important;
 }
 
 .topNavBar a:hover {
-    background-color: #9d1414;
-    border-radius: 10px;
+    background-color: #9d1414 !important;
+    border-radius: 10px !important;
 }
 
 #SCU {
     height: 150px;
+    opacity: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 55%;
+    margin-bottom: 3%;
 }
 
 #footer {
     text-align: center;
     font-size: 12px;
-    margin-top: 2%;
 }
 
 #story {
     text-align:left;
-    
 }
 
+#bottomNavBar {
+    overflow: hidden !important;
+    text-align: center !important;
+}
+
+#bottomNavBar ul {
+    display: inline-block !important;
+    list-style-type: none !important;
+    padding-bottom: 1% !important;
+    padding-inline-end: 5%;
+    text-decoration: none !important;
+}
+
+#bottomNavBar #github:hover {
+    background-color:#9d1414 !important;
+    border-radius: 11px !important;
+}  
+
+#bottomNavBar #linkedIn:hover {
+    background-color:#9d1414 !important;
+}  

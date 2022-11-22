@@ -1,50 +1,45 @@
 * {
-    font-family:'Courier New', Courier, monospace;
-    color: #dfc2bc;
+    font-family:'Courier New', Courier, monospace !important;
+    color: #dfc2bc !important;
 }
 
 body {
-    background-color: #341e19;
+    background-color: #341e19 !important;
 }
 
 #footer {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 2%;
+    text-align: center !important;
+    font-size: 12px !important;
+
 }
 
-
 #title {
-    text-align: center;
-    background-size: cover;
+    text-align: center !important;
+    background-size: cover !important;
 }
 
 .topNavBar {
-    overflow:hidden;
-    text-align: center;
+    overflow: hidden !important;
+    text-align: center !important;
 }
 
 .topNavBar ul {
-    display: inline-block;
-    list-style-type: none;
-    color: #dfc2bc;
-    padding: 12px 60px;
-    text-decoration: none;
-    font-size: 30px;
+    display: inline-block !important;
+    list-style-type: none !important;
+    color: #dfc2bc !important;
+    padding: 12px 60px !important;
+    text-decoration: none !important;
+    font-size: 30px !important;
 }
 
 .topNavBar a:hover {
-    background-color: #9d1414;
-    border-radius: 10px;
-}
-
-#intro {
-    text-align: left;
+    background-color: #9d1414 !important;
+    border-radius: 10px !important;
 }
 
 hr.rounded {
-    border-top:3px solid #dfc2bc;
-    border-radius: 2px;
+    border-top:3px solid #dfc2bc !important;
+    border-radius: 2px !important;
 }
 
 /* Steak */
@@ -55,7 +50,7 @@ hr.rounded {
 }
 
 #steakDesc {
-    text-indent: 5%;
+    text-indent: 5% !important;
 }
 
 /* Focaccia */
@@ -72,3 +67,25 @@ hr.rounded {
     font-weight: bold;
     text-decoration:underline;
 }
+
+
+#bottomNavBar {
+    overflow: hidden !important;
+    text-align: center !important;
+}
+
+#bottomNavBar ul {
+    display: inline-block !important;
+    list-style-type: none !important;
+    padding-bottom: 1% !important;
+    text-decoration: none !important;
+}
+
+#bottomNavBar #github:hover {
+    background-color:#9d1414 !important;
+    border-radius: 11px !important;
+}  
+
+#bottomNavBar #linkedIn:hover {
+    background-color:#9d1414 !important;
+}  
