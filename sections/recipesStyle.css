@@ -89,3 +89,10 @@ hr.rounded {
 #bottomNavBar #linkedIn:hover {
     background-color:#9d1414 !important;
 }  
+
+#steak {
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+}
